@@ -1,9 +1,10 @@
 {
-  "name": "json-schema",
+  "name": "ts-json-schema",
   "version": "1.0.0",
   "description": "",
-  "main": "example.js",
   "dependencies": {
+    "@types/node": "^11.9.5",
+    "ajv": "^6.9.2",
     "typescript-json-schema": "^0.36.0"
   },
   "devDependencies": {},
