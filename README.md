@@ -18,6 +18,6 @@ JS-JSON-SCHEMA
 
 ## TODO
 
-1. Test required/optional field case
+1. ~~Test required/optional field case~~
 2. Test https://quicktype.io/, GraphQL -> json-schema
 3. Import json-schema in other language. 
