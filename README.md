@@ -1,4 +1,4 @@
-JS-JSON-SCHEMA
+TS-JSON-SCHEMA
 --------------
 
 ## Prerequisite
