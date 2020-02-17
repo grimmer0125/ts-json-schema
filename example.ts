@@ -20,7 +20,7 @@ const files = [path.resolve("myObject.ts")];
 
 const schema = TJS.generateSchema(
   TJS.getProgramFromFiles(files, compilerOptions),
-  "Shape", //"MyString",
+  "MyObject", //"MyString",
   settings
 );
 console.log("json-schema:", schema);
@@ -29,7 +29,7 @@ console.log("json-schema:", schema);
 // Try to export to a schema.json & import
 const filename = "./json.schema";
 fs.writeFileSync(filename, JSON.stringify(schema));
-
+console.log("done");
 //** start Ajv validation */
 
 // const schemaStr = fs.readFileSync(filename, "utf8");

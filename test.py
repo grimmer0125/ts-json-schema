@@ -28,7 +28,14 @@ with open('json.schema') as json_file:
     # }
 
     # >>> # If no exception is raised by validate(), the instance is valid.
-    validate(instance={"size": -1}, schema=schema)
+    validate(
+        instance={
+            # "requiredField": "10", exception
+            "shapeField": {
+                "size": 11
+            }
+        },
+        schema=schema)
 
 # validate(
 #     instance={
