@@ -23,9 +23,3 @@ result in stdout, add `-o json.schema` to redirect to a file
 2. `node example.js`
 3. `pip install jsonschema`, it not installed
 4. `python test.py` to validate
-
-## TODO
-
-1. ~~Test required/optional field case~~
-2. Test https://quicktype.io/, GraphQL -> json-schema
-3. Import json-schema in other language.
