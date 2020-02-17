@@ -10,12 +10,12 @@
 
 `yarn run typescript-json-schema myString.ts MyString`
 
-result in stdout, add `-o tes.schema` to see file type
+result in stdout, add `-o test.schema` to redirect to a file
 
 ## Test example.ts (master branch) to generate json scheman, and use AJV to validate (in js/ts), interface: myString.ts
 
 1. Compile TypeScript to JavaScript, `yarn run build example.ts`
-2. Test, `node example.js`, result in schema.json
+2. Test, `node example.js`, result in json.schema
 
 ## Test example.ts (bdd branch) to generate json schema, and use python to validate, interface: myObject.ts
 
