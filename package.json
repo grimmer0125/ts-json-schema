@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/node": "^11.9.5",
     "ajv": "^6.9.2",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
     "typescript-json-schema": "^0.36.0"
   },
