@@ -10,10 +10,17 @@
 
 `yarn run typescript-json-schema myString.ts MyString` (need test more)
 
-## Test example.ts which uses AJV to validate
+## Test example.ts (master branch) to generate json scheman, and use AJV to validate (in js/ts), interface: myString.ts
 
 1. Compile TypeScript to JavaScript, `yarn run build example.ts`
-2. Test, `node example.js`
+2. Test, `node example.js`, result in schema.json
+
+## Test example.ts (bdd branch) to generate json schema, and use python to validate, interface: myObject.ts
+
+1. `yarn run build example.ts`
+2. `node example.js`
+3. `pip install jsonschema`, it not installed
+4. `python test.py` to validate
 
 ## TODO
 
