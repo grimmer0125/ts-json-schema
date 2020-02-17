@@ -8,7 +8,9 @@
 
 ## In command line to use typescript-json-schema lib to generate json schema
 
-`yarn run typescript-json-schema myString.ts MyString` (need test more)
+`yarn run typescript-json-schema myString.ts MyString`
+
+result in stdout, add `-o tes.schema` to see file type
 
 ## Test example.ts (master branch) to generate json scheman, and use AJV to validate (in js/ts), interface: myString.ts
 
