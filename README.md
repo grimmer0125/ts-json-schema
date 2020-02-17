@@ -10,7 +10,7 @@
 
 `yarn run typescript-json-schema myString.ts MyString`
 
-result in stdout, add `-o test.schema` to redirect to a file
+result in stdout, add `-o json.schema` to redirect to a file
 
 ## Test example.ts (master branch) to generate json scheman, and use AJV to validate (in js/ts), interface: myString.ts
 
